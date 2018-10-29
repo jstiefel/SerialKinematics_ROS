@@ -37,15 +37,15 @@ Use "catkin build" for building. Download and install dependencies first.
 
 Joint parameters in mm and deg:
 
-`rosservice call /kinematics_controller/joint_pos_service "{y_joint: 0.0, x_joint: 0.0, alpha_joint: 0.0, beta_joint: 0.0, d_joint: 0.0}" `
+`rosservice call /serialkinematics/joint_pos_service "{y_joint: 0.0, x_joint: 0.0, alpha_joint: 0.0, beta_joint: 0.0, d_joint: 0.0}" `
 
 End-effector position in mm and deg:
 
-`rosservice call /kinematics_controller/ee_pos_service "{x_ee: 0.0, y_ee: 0.0, z_ee: 0.0, phi_ee: 0.0, theta_ee: 0.0}" `
+`rosservice call /serialkinematics/ee_pos_service "{x_ee: 0.0, y_ee: 0.0, z_ee: 0.0, phi_ee: 0.0, theta_ee: 0.0}" `
 
 Generalized joint coordinates topic:
 
-`rostopic echo /kinematics_controller/global_state_topic`
+`rostopic echo /serialkinematics/global_state_topic`
 
 
 ## Dependencies
