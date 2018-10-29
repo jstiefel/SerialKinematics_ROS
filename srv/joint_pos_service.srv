@@ -1,0 +1,7 @@
+float32 y_joint
+float32 x_joint
+float32 alpha_joint
+float32 beta_joint
+float32 d_joint
+---
+bool success

@@ -1,0 +1,7 @@
+float32 x_ee
+float32 y_ee
+float32 z_ee
+float32 phi_ee
+float32 theta_ee
+---
+bool success

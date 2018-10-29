@@ -1,0 +1,5 @@
+robot_geometry:
+  z_height: 0.427 #m
+  x_offset: 0.1 #m
+  d_offset: 0.16372 #m
+
