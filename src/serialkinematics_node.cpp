@@ -12,7 +12,7 @@
 
 int main(int argc, char** argv)
 {
-	ros::init(argc, argv, "kinematics_control");
+	ros::init(argc, argv, "serialkinematics");
 	ros::NodeHandle nodeHandle("~");
 	ros::Rate loop_rate(100); //frequency in Hz
 
